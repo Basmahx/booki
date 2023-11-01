@@ -191,6 +191,7 @@ header {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 25px;
 }
 
 .hebergements-and-populaires section {
@@ -306,8 +307,52 @@ header {
     margin-bottom: 5px;
 }
 
+/* Activités */
 
-/* footer*/ 
+
+.activites {
+    margin: 40px 25px;
+    width: 95%;
+
+}
+
+.activites-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  
+}
+
+.activites-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    row-gap: 30px;
+    column-gap: 24px;
+
+
+}
+
+.activites-cards .card {
+    width: 297px;
+    height: 439px;
+    padding: 0 0 15px 0;
+    gap: 4px;
+    
+} 
+
+.activites-cards .card-title {
+    margin: 25px;
+   
+}
+
+.activites-cards img {
+    width: 100%;
+    height: 380px;
+    border-radius: 20px 20px 0 0 ;
+}
+
+/* footer */ 
 
 .footer-3 {
     background-color: var(--main-bg-color);
