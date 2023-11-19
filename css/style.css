@@ -619,6 +619,7 @@ a {
         flex-direction: column;
         column-gap: 15px;
         padding-left: 15px;
+        padding-right: 15px;
     }
 
     /* .filter-container {
