@@ -543,6 +543,10 @@ a {
     .main-container {
         padding: 0;
       }
+
+      .logo {
+        margin-bottom: 20px;
+      }
     
     .header {
         display: flex;
