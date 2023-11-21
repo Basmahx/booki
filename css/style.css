@@ -351,7 +351,6 @@ a {
     background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 30px;
-    /*box-sizing: border-box; */ 
 }
 
 .populaires-title {
@@ -477,14 +476,10 @@ a {
         display: none; 
       }
 
-      /* .filter-info-container {
-        padding: 0 15px;
-      } */
-
-      .filter-container {
+    .filter-container {
         flex-direction: column;
         align-items: flex-start;
-      }
+    }
 
     .hebergements-and-populaires {
         flex-direction: column;
@@ -621,11 +616,6 @@ a {
         padding-right: 15px;
     }
 
-    /* .filter-container {
-        display: flex;
-        flex-wrap: wrap;
-    }  i think the issue with this container is in the flex options maybe? i should add wrap? */
-
 
     .filter-four {
         display: flex;
@@ -638,11 +628,6 @@ a {
         width: 40%;
     }
 
-    /* .info-container {
-       
-       
-    } */
-
 
     /*** hebergements ***/
 
@@ -653,7 +638,6 @@ a {
     }
 
     .hebergements-and-populaires {
-        /* display: flex; */
         flex-direction: column-reverse;
     }
 
@@ -678,11 +662,8 @@ a {
     }
 
     .populaires-cards {
-        /* display: flex; */
         flex-direction: column;
-        /* justify-content: space-between; */
         gap: 15px;
-
     }
        
     .populaires-cards .card {
