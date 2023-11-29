@@ -97,7 +97,7 @@ a {
 }
 
 .rechercher h1 {
-  margin: 0;
+   margin: 0;
 }
 
 .rechercher p {
@@ -111,6 +111,10 @@ a {
     align-items: center;
     margin-top: 30px;
    
+}
+
+.fa-location-dot {
+    color: #000000;
 }
 
 
@@ -207,6 +211,10 @@ a {
 .filter-one:hover {
     background-color: #DEEBFF;
 
+}
+
+.filter-one i {
+    color: #0065fc;
 }
 
 
@@ -569,8 +577,18 @@ a {
     }
 
     .rechercher {
-        padding: 0 15px;
+        padding: 0 30px;
+        
     }
+
+    .rechercher h1 {
+      font-size: 22px;
+    }
+
+    .search-form {
+        width: 100%
+    }
+
 
     .search-form input[type="text"] {
         border-top-right-radius: 15px;
@@ -605,21 +623,31 @@ a {
         display: flex;
         flex-direction: column;
         column-gap: 15px;
-        padding-left: 15px;
-        padding-right: 15px;
         margin-bottom: 0;
+        padding: 0 15px;
+    }
+
+    .filter-container h3 {
+        padding-left: 15px;
     }
 
 
     .filter-four {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
-
+        column-gap: 5px;
     }
 
     .filter-one {
-        width: 40%;
+        width: 46%;
+    }
+
+    .info-container {
+        padding-left: 10px;
+    }
+
+    .info-container p {
+        font-size: 16px;
     }
 
 
@@ -642,6 +670,9 @@ a {
         gap: 4px;
     }
      
+    .hebergements-cards .card-content { 
+        padding: 15px 0 5px 10px;
+    }
 
      
     /*** populaires ***/
@@ -731,8 +762,9 @@ a {
         flex-direction: column;
     }
         
-    .hebergements-cards .card-content { 
-    padding: 15px 0 5px 10px;
+
+    .footer-3 div {
+        width: 100%;
     }
     
 
